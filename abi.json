@@ -1,0 +1,47 @@
+[
+    {
+        "type": "function",
+        "stateMutability": "payable",
+        "outputs": [
+            {
+                "type": "uint256",
+                "name": "amountOut",
+                "internalType": "uint256"
+            }
+        ],
+        "name": "exactInputSingle",
+        "inputs": [
+            {
+                "type": "tuple",
+                "name": "params",
+                "internalType": "struct ISwapRouter.ExactInputSingleParams",
+                "components": [
+                    {
+                        "type": "address"
+                    },
+                    {
+                        "type": "address"
+                    },
+                    {
+                        "type": "uint24"
+                    },
+                    {
+                        "type": "address"
+                    },
+                    {
+                        "type": "uint256"
+                    },
+                    {
+                        "type": "uint256"
+                    },
+                    {
+                        "type": "uint256"
+                    },
+                    {
+                        "type": "uint160"
+                    }
+                ]
+            }
+        ]
+    }
+]
